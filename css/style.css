@@ -11,4 +11,21 @@
   align-items: center;
   padding: 10px;
   background-color: #13293d;
+  flex-wrap: wrap;
+}
+
+.navbar-logo img {
+  width: 220px;
+}
+
+.navbar-menus {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navbar-menus a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
 }
